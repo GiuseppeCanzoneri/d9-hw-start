@@ -43,11 +43,11 @@ const MainSearch = () => {
         </Col>
         <Link to={"/favourites"} className="d-flex justify-content-center text-decoration-none">
           <Button variant="light" className="text-primary border-3 border fw-bold mb-5">
-            Aziende preferite
+            Favorite
           </Button>
         </Link>
         <Col xs={10} className="mx-auto">
-          <Form className="border border-3 border-dark rounded-3" onSubmit={handleSubmit}>
+          <Form className="border border-2 border-dark rounded-3" onSubmit={handleSubmit}>
             <Form.Control type="search" value={query} onChange={handleChange} placeholder="type and press Enter" />
           </Form>
         </Col>
